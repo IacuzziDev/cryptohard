@@ -26,7 +26,43 @@
                 <li><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <main></main>
+        <main class="mainContacto">
+            <section class="contactoTitulos">
+                <h2>Comnunicate con nosotros!</h1>
+                <h3>Estamos para ayudarte</h2>
+            </section>
+            <section class="contactoForm">
+                <h2 class="contactoFormTitulo">Contacto</h2>
+                <div class="contactoFormDatos">
+                    <div class="contactoFormDatosGrupo">
+                        <p class="contactoDatosTitulo">Ubicacion:</p>
+                        <p>Buenos Aires - Argentina</p>
+                    </div>
+                    <div class="contactoFormDatosGrupo">
+                        <p class="contactoDatosTitulo">Email:</p>
+                        <p>iacuzzidev@gmail.com</p>
+                    </div>
+                    <div>
+                        <p>Dejanos tu consulta y con gusto la responderemos!</p>
+                    </div>
+                </div>
+                <form action="" class="contactoFormCliente">
+                    <div>
+                        <label for="name" class="contactoLabel">Nombre</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email" class="contactoLabel">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="mensaje" class="contactoLabel">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="contactoFormButton" >Enviar</button>
+                </form>
+            </section>
+        </main>
         <footer class="footer">
             <ul>
                 <li><a href="">Conocenos</a></li>

@@ -99,6 +99,75 @@ body {
 .heroCarousel {
     width: 50%;
 }
+/* main contato page */
+.mainContacto {
+    grid-area: hero;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contactoForm p,
+.contactoForm h2 {
+    margin: 0;
+    padding: 0;
+}
+.contactoForm {
+    background-color: #7e8a99;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 25px;
+    display: grid;
+    gap: 25px;
+}
+.contactoFormTitulo {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contactoFormDatos {
+    display: grid;
+    gap: 20px;
+}
+.contactoFormDatosGrupo {
+    display: grid;
+    gap: 3px;
+}
+.contactoDatosTitulo {
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+.contactoFormCliente {
+    display: grid;
+    gap: 20px;
+}
+.contactoLabel {
+    display: grid;
+    gap: 3px;
+}
+.contactoFormCliente input {
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+}
+.contactoFormCliente textarea {
+    border-radius: 7px;
+    border: none;
+    padding: 5px 10px;
+    height: auto;
+    resize: vertical;
+}
+.contactoFormButton {
+    width: 100%;
+    height: 50px;
+    background-color: #d6dee1;
+    border-radius: 7px;
+    border: 1px solid #2d3e57;
+}
 /* aside */
 aside {
     display: flex;
