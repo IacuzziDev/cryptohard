@@ -17,7 +17,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: 150px 100px auto auto 130px;
+    grid-template-rows: 150px 80px auto auto 130px;
     gap: 20px;
     grid-template-areas: 
     "header header header"
@@ -96,8 +96,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+.heroTitulo {
+    text-align: center;
+}
+.heroBanner {
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px 1px rgba(45,62,87,1);
+    -webkit-box-shadow: 0px 0px 12px 1px rgba(45,62,87,1);
+    -moz-box-shadow: 0px 0px 12px 1px rgba(45,62,87,1);
+}
 .heroCarousel {
     width: 50%;
+    box-shadow: 9px 7px 11px 1px rgba(70,127,163,0.75);
+    -webkit-box-shadow: 9px 7px 11px 1px rgba(70,127,163,0.75);
+    -moz-box-shadow: 9px 7px 11px 1px rgba(70,127,163,0.75);
 }
 /* main contato page */
 .mainContacto {
@@ -210,6 +222,7 @@ footer ul a {
 footer .footerLogos {
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
