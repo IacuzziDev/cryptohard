@@ -186,6 +186,57 @@ body {
     border-radius: 7px;
     border: 1px solid #2d3e57;
 }
+/* Main productos */
+.mainProductos {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.productosTitulo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.productosCategoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.productosTitulos {
+    margin-left: 15px;
+}
+.productoCard img{
+    width: 300px;
+    height: 350px;
+    padding: 2px;
+}
+.productoCard {
+    margin: 20px;
+    padding: 5px;
+    background-color: white;
+    width: 305px;
+    height: auto;
+    text-align: center;
+}
+.productoCard a { 
+    padding: 2px 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #7e8a99;
+    border-radius: 5px;
+}
+.productoCard:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+}
+.productoCard a:hover {
+    color: #2d3e57;
+}
 /* aside */
 aside {
     display: flex;
