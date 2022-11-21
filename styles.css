@@ -288,6 +288,16 @@ body {
     align-items: center;
     text-align: center;
 }
+.conocenosImgHistoria {
+    box-shadow: -11px -10px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -11px -10px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: -11px -10px 5px 0px rgba(0,0,0,0.2);
+}
+.conocenosImgVision {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+}
 .conocenosTitulos {
     font-size: xx-large;
     font-weight: bolder;
