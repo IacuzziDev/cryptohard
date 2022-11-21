@@ -120,6 +120,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+.contactoTitulos {
+    text-align: center;
+}
+.contactoTitulos h3 {
+    font-style: oblique;
+}
 .contactoForm p,
 .contactoForm h2 {
     margin: 0;
