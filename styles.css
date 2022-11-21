@@ -301,6 +301,7 @@ body {
 .conocenosTitulos {
     font-size: xx-large;
     font-weight: bolder;
+    margin-bottom: 25px;
 }
 .historiaDiv {
     padding-left: 25px;
