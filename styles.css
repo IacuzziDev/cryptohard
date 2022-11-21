@@ -206,14 +206,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.productosIntel {
-    display: flex;
-    justify-content: space-evenly;
-}
-.productosAmd {
-    display: flex;
-    justify-content: space-evenly;
-}
+.productosIntel,
+.productosAmd,
 .productosNotebook {
     display: flex;
     justify-content: space-evenly;
@@ -240,6 +234,7 @@ body {
 }
 .cardTitulo {
     font-weight: bolder;
+    padding: 0.7rem;
 }
 .productoCard p{
     text-align: center;
@@ -255,7 +250,7 @@ body {
     border-radius: 2px;
 }
 .productoCard a { 
-    padding: 2px 5px;
+    padding: 5px 15px;
     text-decoration: none;
     color: white;
     background-color: #7e8a99;
@@ -269,6 +264,33 @@ body {
 }
 .productoCard a:hover {
     color: #2d3e57;
+}
+/* Main Conocenos */
+.mainConocenos {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 50px;
+}
+.conocenosHistoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.conocenosVision {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conocenosTitulos {
+    font-size: xx-large;
+    font-weight: bolder;
 }
 /* aside */
 aside {
