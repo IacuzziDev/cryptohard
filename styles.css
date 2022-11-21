@@ -219,7 +219,8 @@ body {
     justify-content: space-evenly;
 }
 .productosTitulos {
-    margin-left: 50px;
+    margin: 50px;
+    text-shadow: 4px 4px 5px gray;
 }
 .productosTitulos h3 {
     font-weight: bolder;
@@ -230,16 +231,28 @@ body {
     height: 350px;
     padding: 2px;
 }
+.productosLinea {
+        border-top: 1px solid black;
+        height: 2px;
+        width: 500px;
+        padding: 0;
+        margin: 20px auto 0 auto;
+}
 .cardTitulo {
     font-weight: bolder;
 }
+.productoCard p{
+    text-align: center;
+    padding: 5px;
+}
 .productoCard {
     margin: 20px;
-    padding: 5px;
+    padding: 5px 5px 15px 5px;
     background-color: white;
     width: 305px;
     height: auto;
     text-align: center;
+    border-radius: 2px;
 }
 .productoCard a { 
     padding: 2px 5px;
