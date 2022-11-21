@@ -302,6 +302,42 @@ body {
     font-size: xx-large;
     font-weight: bolder;
 }
+.historiaDiv {
+    padding-left: 25px;
+}
+.visionDiv {
+    padding-right: 25px;
+}
+/* Main Categorias */
+.mainCategorias {
+    grid-area: hero;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 50px;
+}
+.categoriasTitulo { 
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.categoriasTitulo h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.categoriaItemsTitulo {
+    margin: 25px 30px;
+}
+.categoriaGabinetes,
+.categoriaGpu,
+.categoriaPerifericos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* aside */
 aside {
     display: flex;
