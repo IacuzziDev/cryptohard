@@ -546,6 +546,9 @@ footer .footerLogos img:hover{
         padding-left: 0;
         flex-direction: column;
     }
+    .productosLinea {
+        width: 200px;
+    }
     footer .footerLogos img {
         height: 45px;
         width: 45px;
