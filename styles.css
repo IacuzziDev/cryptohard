@@ -27,6 +27,19 @@ body {
     "footer footer footer"
     ;
 }
+.gridContainer2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: 150px 80px auto 130px;
+    gap: 20px;
+    grid-template-areas: 
+    "header header header"
+    "navBar navBar navBar"
+    "hero hero hero"
+    "footer footer footer"
+    ;
+}
 /* Header */
 .header {
     padding: 35px;
@@ -100,6 +113,7 @@ body {
     text-align: center;
 }
 .heroBanner {
+
     margin-bottom: 20px;
     box-shadow: 0px 0px 12px 1px rgba(45,62,87,1);
     -webkit-box-shadow: 0px 0px 12px 1px rgba(45,62,87,1);
@@ -194,12 +208,17 @@ body {
     flex-direction: column;
 }
 .productosTitulo {
-    margin-top: 20px;
+    margin: 50px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.productosTitulo h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
 }
 .productosCategoria {
     display: flex;
@@ -329,6 +348,12 @@ body {
 }
 .categoriaItemsTitulo {
     margin: 25px 30px;
+    margin: 50px;
+    text-shadow: 4px 4px 5px gray;
+}
+.categoriaItemsTitulo h3 {
+    font-weight: bolder;
+    font-size: xx-large;
 }
 .categoriaGabinetes,
 .categoriaGpu,
@@ -393,4 +418,11 @@ footer .footerLogos img {
 }
 footer .footerLogos img:hover{
     transform: scale(1.33);
+}
+/* MEDIAS */
+
+@media screen and (max-width: 1664px){
+    .imagenBanner {
+        width: 100%;
+    }
 }
