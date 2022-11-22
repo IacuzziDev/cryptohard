@@ -110,7 +110,16 @@ body {
     align-items: center;
 }
 .heroTitulo {
+    margin: 25px 10px;
     text-align: center;
+}
+.titulosMainIndex {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.titulosIndexDiv {
+    margin-bottom: 25px;
 }
 .heroBanner {
 
@@ -366,6 +375,7 @@ body {
 
 /* aside */
 aside {
+    margin: 25px 35px;
     display: flex;
     background-color: #d6dee1;
     grid-area: proce;
@@ -377,6 +387,7 @@ aside .elegiProcesadorTitulo {
 }
 aside .elegiProcesadorImg img {
     padding: 15px;
+    margin-bottom: 15px;
     background-color: #f3f3f3;
     box-shadow: 9px 7px 11px 1px rgba(70,127,163,0.75);
     -webkit-box-shadow: 9px 7px 11px 1px rgba(70,127,163,0.75);
@@ -386,6 +397,7 @@ aside .elegiProcesadorImg img {
 }
 /* footer */
 footer {
+    padding: 15px 10px;
     background-color: #7e8a99;
     grid-area: footer;
     display: flex;
@@ -420,9 +432,68 @@ footer .footerLogos img:hover{
     transform: scale(1.33);
 }
 /* MEDIAS */
-
 @media screen and (max-width: 1664px){
     .imagenBanner {
         width: 100%;
     }
 }
+@media screen and (max-width: 700px){
+    .gridContainer {
+        grid-template-rows: 150px 80px auto auto 170px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+    "header header"
+    "navBar navBar"
+    "hero   hero"
+    "proce  proce"
+    "footer footer"
+    ;}
+    .footer {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 580px){
+    .gridContainer {
+        grid-template-rows: auto 180px auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+    "header"
+    "navBar"
+    "hero"
+    "proce"
+    "footer"
+    ;}
+    .header {
+        flex-direction: column;
+    }
+    .navBar ul {
+        padding-left: 0;
+        flex-direction: column;
+    }
+    footer .footerLogos img {
+        height: 45px;
+        width: 45px;
+    }
+    footer .footerLogos h3 {
+        font-size: medium;
+    }
+    footer ul {
+        padding: 0%;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 460px){
+    aside {
+        flex-direction: column;
+    }
+    footer .footerLogos img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
