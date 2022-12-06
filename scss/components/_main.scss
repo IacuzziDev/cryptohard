@@ -1,11 +1,9 @@
-@import "/scss/base/variables";
+@import "../base/variables";
 .hero{
     background-color: $color-principal;
     grid-area: hero;
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     .heroTitulo{
         margin: 25px 10px;
         text-align: center;
@@ -32,12 +30,10 @@
     }
 }
 aside{
+    @extend %flex;
     margin: 25px 35px;
-    display: flex;
     background-color: $color-principal;
     grid-area: proce;
-    justify-content: center;
-    align-items: center;
     .elegiProcesadorTitulo{
         margin-right: 30px;
     }
@@ -55,10 +51,8 @@ aside{
 .mainContacto{
     grid-area: hero;
     width: 100%;
-    display: flex;
+    @extend %flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     .contactoTitulos{
         text-align: center;
         h3{
@@ -143,10 +137,8 @@ aside{
     }
     .productosTitulo{
         margin: 50px 20px;
-        display: flex;
+        @extend %flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         text-align: center;
         h2{
             font-size: xx-large;
@@ -215,10 +207,8 @@ aside{
     flex-direction: column;
     margin: 20px 50px;
     .conocenosHistoria{
-        display: flex;
+        @extend %flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
         text-align: center;
         margin-bottom: 30px;
         .conocenosImgHistoria{
@@ -236,10 +226,8 @@ aside{
         }
     }
     .conocenosVision{
-        display: flex;
+        @extend %flex;
         flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
         text-align: center;
         .conocenosImgVision{
             box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);

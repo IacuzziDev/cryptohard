@@ -1,3 +1,13 @@
+.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,6 +37,11 @@ body {
   grid-template-rows: 150px 80px auto 130px;
   gap: 20px;
   grid-template-areas: "header header header" "navBar navBar navBar" "hero hero hero" "footer footer footer"; }
+
+.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 header {
   padding: 35px;
@@ -78,13 +93,15 @@ header {
       text-decoration: none;
       color: black; }
 
+.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .hero {
   background-color: #d6dee1;
   grid-area: hero;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
   .hero .heroTitulo {
     margin: 25px 10px;
     text-align: center; }
@@ -107,11 +124,8 @@ header {
 
 aside {
   margin: 25px 35px;
-  display: flex;
   background-color: #d6dee1;
-  grid-area: proce;
-  justify-content: center;
-  align-items: center; }
+  grid-area: proce; }
   aside .elegiProcesadorTitulo {
     margin-right: 30px; }
   aside .elegiProcesadorImg img {
@@ -127,10 +141,7 @@ aside {
 .mainContacto {
   grid-area: hero;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  flex-direction: column; }
   .mainContacto .contactoTitulos {
     text-align: center; }
     .mainContacto .contactoTitulos h3 {
@@ -200,10 +211,7 @@ aside {
     margin: 20px auto 0 auto; }
   .mainProductos .productosTitulo {
     margin: 50px 20px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center; }
     .mainProductos .productosTitulo h2 {
       font-size: xx-large;
@@ -260,10 +268,7 @@ aside {
   flex-direction: column;
   margin: 20px 50px; }
   .mainConocenos .conocenosHistoria {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     margin-bottom: 30px; }
     .mainConocenos .conocenosHistoria .conocenosImgHistoria {
@@ -277,10 +282,7 @@ aside {
         font-weight: bolder;
         margin-bottom: 25px; }
   .mainConocenos .conocenosVision {
-    display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
     text-align: center; }
     .mainConocenos .conocenosVision .conocenosImgVision {
       box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
@@ -362,6 +364,11 @@ aside {
         .mainCategorias .categoriaPerifericos .productoCard a:hover {
           color: #2d3e57; }
 
+.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 footer {
   padding: 15px 10px;
   background-color: #7e8a99;
@@ -380,10 +387,7 @@ footer {
       color: rgba(0, 0, 0, 0.623); }
   footer .footerLogos {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    flex-direction: column; }
     footer .footerLogos img {
       padding: 5px;
       height: 60px;
