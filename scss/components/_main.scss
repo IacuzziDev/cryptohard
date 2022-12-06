@@ -1,5 +1,5 @@
 .hero{
-    background-color: #d6dee1;
+    background-color: $color-principal;
     grid-area: hero;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
 aside{
     margin: 25px 35px;
     display: flex;
-    background-color: #d6dee1;
+    background-color: $color-principal;
     grid-area: proce;
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ aside{
         }
     }
     .contactoForm{
-        background-color: #7e8a99;
+        background-color: $color-nav;
         color: white;
         font-size: 18px;
         border-radius: 12px;
@@ -121,9 +121,9 @@ aside{
             .contactoFormButton{
                 width: 100%;
                 height: 50px;
-                background-color: #d6dee1;
+                background-color: $color-principal;
                 border-radius: 7px;
-                border: 1px solid #2d3e57;
+                border: 1px solid $color-header;
             }
         }
     }
@@ -198,10 +198,10 @@ aside{
                 padding: 5px 15px;
                 text-decoration: none;
                 color: white;
-                background-color: #7e8a99;
+                background-color: $color-nav;
                 border-radius: 5px;
                 &:hover{
-                    color: #2d3e57;
+                    color: $color-header;
                 }
             }
         }
@@ -314,10 +314,10 @@ aside{
                 padding: 5px 15px;
                 text-decoration: none;
                 color: white;
-                background-color: #7e8a99;
+                background-color: $color-nav;
                 border-radius: 5px;
                 &:hover{
-                    color: #2d3e57;
+                    color: $color-header;
                 }
             }
         }

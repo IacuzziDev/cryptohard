@@ -1,6 +1,6 @@
 header{
     padding: 35px;
-    background-color: #2d3e57;
+    background-color: $color-header;
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ header{
     }
 }
 .navBar{
-    background-color: #7e8a99;
+    background-color: $color-nav;
     grid-area: navBar;
     margin-top: -25px;
     ul{
