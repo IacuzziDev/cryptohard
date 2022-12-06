@@ -78,6 +78,284 @@ header {
       text-decoration: none;
       color: black; }
 
+.hero {
+  background-color: #d6dee1;
+  grid-area: hero;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .hero .heroTitulo {
+    margin: 25px 10px;
+    text-align: center; }
+    .hero .heroTitulo .titulosIndexDiv {
+      margin-bottom: 25px; }
+      .hero .heroTitulo .titulosIndexDiv .titulosMainIndex {
+        font-size: xx-large;
+        font-weight: bolder;
+        text-transform: uppercase; }
+    .hero .heroTitulo .heroBanner {
+      margin-bottom: 20px;
+      box-shadow: 0px 0px 12px 1px #2d3e57;
+      -webkit-box-shadow: 0px 0px 12px 1px #2d3e57;
+      -moz-box-shadow: 0px 0px 12px 1px #2d3e57; }
+  .hero .heroCarousel {
+    width: 50%;
+    box-shadow: 9px 7px 11px 1px rgba(70, 127, 163, 0.75);
+    -webkit-box-shadow: 9px 7px 11px 1px rgba(70, 127, 163, 0.75);
+    -moz-box-shadow: 9px 7px 11px 1px rgba(70, 127, 163, 0.75); }
+
+aside {
+  margin: 25px 35px;
+  display: flex;
+  background-color: #d6dee1;
+  grid-area: proce;
+  justify-content: center;
+  align-items: center; }
+  aside .elegiProcesadorTitulo {
+    margin-right: 30px; }
+  aside .elegiProcesadorImg img {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f3f3f3;
+    box-shadow: 9px 7px 11px 1px rgba(70, 127, 163, 0.75);
+    -webkit-box-shadow: 9px 7px 11px 1px rgba(70, 127, 163, 0.75);
+    -moz-box-shadow: 9px 7px 11px 1px rgba(70, 127, 163, 0.75);
+    height: 200px;
+    width: 200px; }
+
+.mainContacto {
+  grid-area: hero;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .mainContacto .contactoTitulos {
+    text-align: center; }
+    .mainContacto .contactoTitulos h3 {
+      font-style: oblique; }
+  .mainContacto .contactoForm {
+    background-color: #7e8a99;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 25px;
+    display: grid;
+    gap: 25px; }
+    .mainContacto .contactoForm p,
+    .mainContacto .contactoForm h2 {
+      margin: 0;
+      padding: 0; }
+    .mainContacto .contactoForm .contactoFormTitulo {
+      font-size: 30px;
+      font-weight: 600;
+      text-align: center;
+      text-transform: uppercase; }
+      .mainContacto .contactoForm .contactoFormTitulo h3 {
+        font-style: oblique; }
+    .mainContacto .contactoForm .contactoFormDatos {
+      display: grid;
+      gap: 20px; }
+      .mainContacto .contactoForm .contactoFormDatos .contactoFormDatosGrupo {
+        display: grid;
+        gap: 3px; }
+        .mainContacto .contactoForm .contactoFormDatos .contactoFormDatosGrupo .contactoDatosTitulo {
+          text-transform: uppercase;
+          font-weight: 500px; }
+    .mainContacto .contactoForm .contactoFormCliente {
+      display: grid;
+      gap: 20px; }
+      .mainContacto .contactoForm .contactoFormCliente .contactoLabel {
+        display: grid;
+        gap: 3px; }
+      .mainContacto .contactoForm .contactoFormCliente input {
+        border-radius: 7px;
+        border: none;
+        height: 30px;
+        padding: 5px 10px; }
+      .mainContacto .contactoForm .contactoFormCliente textarea {
+        border-radius: 7px;
+        border: none;
+        padding: 5px 10px;
+        height: auto;
+        resize: vertical; }
+      .mainContacto .contactoForm .contactoFormCliente .contactoFormButton {
+        width: 100%;
+        height: 50px;
+        background-color: #d6dee1;
+        border-radius: 7px;
+        border: 1px solid #2d3e57; }
+
+.mainProductos {
+  grid-area: hero;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .mainProductos .productosTitulo {
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .mainProductos .productosTitulo h2 {
+      font-size: xx-large;
+      font-weight: bolder;
+      text-transform: uppercase; }
+  .mainProductos .productosTitulos {
+    margin: 50px;
+    text-shadow: 4px 4px 5px gray; }
+    .mainProductos .productosTitulos h3 {
+      font-weight: bolder;
+      font-size: xx-large; }
+  .mainProductos .productosCategoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
+    .mainProductos .productosCategoria .productosIntel,
+    .mainProductos .productosCategoria .productosAmd,
+    .mainProductos .productosCategoria .productosNotebook {
+      display: flex;
+      justify-content: space-evenly; }
+    .mainProductos .productosCategoria .productoCard {
+      margin: 20px;
+      padding: 5px 5px 15px 5px;
+      background-color: white;
+      width: 305px;
+      height: auto;
+      text-align: center;
+      border-radius: 2px; }
+      .mainProductos .productosCategoria .productoCard:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75); }
+      .mainProductos .productosCategoria .productoCard img {
+        width: 300px;
+        height: 350px;
+        padding: 2px; }
+      .mainProductos .productosCategoria .productoCard p {
+        text-align: center;
+        padding: 5px; }
+      .mainProductos .productosCategoria .productoCard a {
+        padding: 5px 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #7e8a99;
+        border-radius: 5px; }
+        .mainProductos .productosCategoria .productoCard a:hover {
+          color: #2d3e57; }
+
+.mainConocenos {
+  grid-area: hero;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 50px; }
+  .mainConocenos .conocenosHistoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px; }
+    .mainConocenos .conocenosHistoria .conocenosImgHistoria {
+      box-shadow: -11px -10px 5px 0px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: -11px -10px 5px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: -11px -10px 5px 0px rgba(0, 0, 0, 0.2); }
+    .mainConocenos .conocenosHistoria .historiaDiv {
+      padding-left: 25px; }
+      .mainConocenos .conocenosHistoria .historiaDiv .conocenosTitulos {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-bottom: 25px; }
+  .mainConocenos .conocenosVision {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .mainConocenos .conocenosVision .conocenosImgVision {
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2); }
+    .mainConocenos .conocenosVision .visionDiv {
+      padding-right: 25px; }
+      .mainConocenos .conocenosVision .visionDiv .conocenosTitulos {
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-bottom: 25px; }
+
+.mainCategorias {
+  grid-area: hero;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 50px; }
+  .mainCategorias .categoriasTitulo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .mainCategorias .categoriasTitulo h2 {
+      font-size: xx-large;
+      font-weight: bolder;
+      text-transform: uppercase; }
+  .mainCategorias .categoriaItemsTitulo {
+    margin: 25px 30px;
+    margin: 50px;
+    text-shadow: 4px 4px 5px gray; }
+    .mainCategorias .categoriaItemsTitulo h3 {
+      font-weight: bolder;
+      font-size: xx-large; }
+  .mainCategorias .categoriaGabinetes,
+  .mainCategorias .categoriaGpu,
+  .mainCategorias .categoriaPerifericos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+    .mainCategorias .categoriaGabinetes .productoCard,
+    .mainCategorias .categoriaGpu .productoCard,
+    .mainCategorias .categoriaPerifericos .productoCard {
+      margin: 20px;
+      padding: 5px 5px 15px 5px;
+      background-color: white;
+      width: 305px;
+      height: auto;
+      text-align: center;
+      border-radius: 2px; }
+      .mainCategorias .categoriaGabinetes .productoCard:hover,
+      .mainCategorias .categoriaGpu .productoCard:hover,
+      .mainCategorias .categoriaPerifericos .productoCard:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75); }
+      .mainCategorias .categoriaGabinetes .productoCard img,
+      .mainCategorias .categoriaGpu .productoCard img,
+      .mainCategorias .categoriaPerifericos .productoCard img {
+        width: 300px;
+        height: 350px;
+        padding: 2px; }
+      .mainCategorias .categoriaGabinetes .productoCard p,
+      .mainCategorias .categoriaGpu .productoCard p,
+      .mainCategorias .categoriaPerifericos .productoCard p {
+        text-align: center;
+        padding: 5px; }
+      .mainCategorias .categoriaGabinetes .productoCard a,
+      .mainCategorias .categoriaGpu .productoCard a,
+      .mainCategorias .categoriaPerifericos .productoCard a {
+        padding: 5px 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #7e8a99;
+        border-radius: 5px; }
+        .mainCategorias .categoriaGabinetes .productoCard a:hover,
+        .mainCategorias .categoriaGpu .productoCard a:hover,
+        .mainCategorias .categoriaPerifericos .productoCard a:hover {
+          color: #2d3e57; }
+
 footer {
   padding: 15px 10px;
   background-color: #7e8a99;
