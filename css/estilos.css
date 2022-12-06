@@ -38,11 +38,6 @@ body {
   gap: 20px;
   grid-template-areas: "header header header" "navBar navBar navBar" "hero hero hero" "footer footer footer"; }
 
-.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 header {
   padding: 35px;
   background-color: #2d3e57;
@@ -92,11 +87,6 @@ header {
     .navBar ul a {
       text-decoration: none;
       color: black; }
-
-.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 .hero {
   background-color: #d6dee1;
@@ -363,11 +353,6 @@ aside {
         .mainCategorias .categoriaGpu .productoCard a:hover,
         .mainCategorias .categoriaPerifericos .productoCard a:hover {
           color: #2d3e57; }
-
-.hero, aside, .mainContacto, .mainProductos .productosTitulo, .mainConocenos .conocenosHistoria, .mainConocenos .conocenosVision, footer .footerLogos {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 footer {
   padding: 15px 10px;
