@@ -133,6 +133,13 @@ aside{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    .productosLinea {
+        border-top: 1px solid black;
+        height: 2px;
+        width: 500px;
+        padding: 0;
+        margin: 20px auto 0 auto;
+    }
     .productosTitulo{
         margin: 50px 20px;
         display: flex;
