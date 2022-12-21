@@ -18,7 +18,7 @@ body {
 
 @font-face {
   font-family: "pretender";
-  src: url(./fonts/pretender-webfont.woff2);
+  src: url(../fonts/pretender-webfont.woff2);
   font-weight: normal;
   font-style: normal; }
 
@@ -52,11 +52,12 @@ header {
     header .headerTitulo h1 {
       font-family: pretender;
       font-weight: bolder;
-      color: #060623; }
+      color: #ffffff; }
     header .headerTitulo h2 {
       font-size: larger;
       font-weight: bolder;
-      font-style: oblique; }
+      font-style: oblique;
+      color: #ffffff; }
   header .buscador input {
     padding: 6px 6px 6px 6px;
     margin-top: 8px;
@@ -87,6 +88,8 @@ header {
     .navBar ul a {
       text-decoration: none;
       color: black; }
+      .navBar ul a:hover {
+        color: #2d3e57; }
 
 .hero {
   background-color: #d6dee1;
@@ -200,6 +203,7 @@ aside {
     padding: 0;
     margin: 20px auto 0 auto; }
   .mainProductos .productosTitulo {
+    padding-top: 10px;
     margin: 50px 20px;
     flex-direction: column;
     text-align: center; }
@@ -212,7 +216,9 @@ aside {
     text-shadow: 4px 4px 5px gray; }
     .mainProductos .productosTitulos h3 {
       font-weight: bolder;
-      font-size: xx-large; }
+      font-size: xx-large;
+      border-bottom: 1px solid #000;
+      padding-bottom: 3px; }
   .mainProductos .productosCategoria {
     display: flex;
     flex-direction: column;
@@ -305,7 +311,9 @@ aside {
     text-shadow: 4px 4px 5px gray; }
     .mainCategorias .categoriaItemsTitulo h3 {
       font-weight: bolder;
-      font-size: xx-large; }
+      font-size: xx-large;
+      border-bottom: 1px solid #000;
+      padding-bottom: 3px; }
   .mainCategorias .categoriaGabinetes,
   .mainCategorias .categoriaGpu,
   .mainCategorias .categoriaPerifericos {
@@ -370,6 +378,8 @@ footer {
     footer ul a {
       text-decoration: none;
       color: rgba(0, 0, 0, 0.623); }
+      footer ul a:hover {
+        color: #2d3e57; }
   footer .footerLogos {
     width: 50%;
     flex-direction: column; }

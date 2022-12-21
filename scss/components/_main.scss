@@ -136,6 +136,7 @@ aside{
         margin: 20px auto 0 auto;
     }
     .productosTitulo{
+        padding-top: 10px;
         margin: 50px 20px;
         @extend %flex;
         flex-direction: column;
@@ -152,6 +153,8 @@ aside{
         h3{
             font-weight: bolder;
             font-size: xx-large;
+            border-bottom: 1px solid #000;
+            padding-bottom: 3px;
         }
     }
     .productosCategoria{
@@ -267,6 +270,8 @@ aside{
         h3{
             font-weight: bolder;
             font-size: xx-large;
+            border-bottom: 1px solid #000;
+            padding-bottom: 3px;
         }
     }
     .categoriaGabinetes,
